@@ -148,6 +148,7 @@ color: white;
 	font-size: 20px;
 	font-weight: bold;
   }
+  /*btns*/
   .mi-btn{
 	border-radius: 50px;
 	display: inline-block;
@@ -191,4 +192,23 @@ color: white;
 .btn-Login:hover{
 	background-color: green;
 	color: white;
+}
+/*textos*/
+
+.txt-us1{
+color: rgb(0, 0, 0);
+font-family:   'Quicksand', sans-serif;
+padding: 1%;
+border: 25%;
+background-color: rgb(238, 192, 93);
+
+}
+/*.Dv1, .Dv2{
+	display: inline-block;
+	width: 50%;
+	box-sizing: border-box;
+	
+}*/
+.sec-us{
+	background-color: darkolivegreen;
 }
