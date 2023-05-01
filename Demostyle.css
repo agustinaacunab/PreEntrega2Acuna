@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
 
 *{
 	border:0;
@@ -86,9 +86,19 @@ header{
 
 .img-cuatro{background-color: rgb(251, 252, 251);}
 
+.img-cinco{
+	background-image: url(./img/ubicacion.avif);
+background-size: cover;}
+
 .Img-maps{
-	width: 200px;
-	height: 200px;
+	width: 440px;
+	height: 300px;
+	padding: 5%;
+	border: 10%;
+}
+.Img-LOG{
+width: 300px;
+height: 300px;
 }
 /*Propiedades barra*/
 .NavbarA{
@@ -136,11 +146,13 @@ a {
   /*Textos Nosotros*/
   .Txt-Carrousel1{
 	color: black;
+	font-family:  'Julius Sans One', sans-serif;
 	
 
   }
   .Txt-carrousel2{
 color: white;
+font-family:  'Julius Sans One', sans-serif;
   }
   .FORMULARIO{
 	color: green;
@@ -175,6 +187,7 @@ color: white;
   }
   .nav-link{
 	color: rgb(247, 250, 246);
+	font-family:  'Tajawal', sans-serif;
 
   }
   .nav-link:hover{
@@ -201,14 +214,75 @@ font-family:   'Quicksand', sans-serif;
 padding: 1%;
 border: 25%;
 background-color: rgb(238, 192, 93);
+font-family: 'Caveat', cursive;
+font-size: 25px;
+text-align: center;
+}
+.cla-us{
+	background-color: green;
+}
+.txt-us2{
+	color: rgb(0, 0, 0);
+	padding: 1%;
+	border: 25%;
+	font-size: 35px;
+	text-align: center;
+	font-family:   'Quicksand', sans-serif;
+}
+.txt-us3{
+	color: rgb(0, 0, 0);
+	padding: 1%;
+	border: 25%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+.Where{
+	font-family: 'Amatic SC';
+	color: antiquewhite;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.mapa1{
+	font-family: 'Amatic SC';
+	color: rgb(223, 130, 9);
+	text-align: center;
+	backface-visibility: visible;
+}
+.mapa2{
+	font-family: 'Amatic SC';
+	color: rgb(70, 223, 9);
+	text-align: center;
+	backface-visibility: visible;
+}
+.txt-IN{
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+}
+.RedesF{
+	text-align: center;
+	font-family: 'Caveat', cursive;
+}
+.acordeon-mio{
+	color: orange;
+	background-color: rgb(43, 133, 25);
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.acordeon-mio:not(.collapsed) {
+	background-color: rgb(231, 170, 37);
+	color: rgb(10, 10, 10);
+	border-color: #070707;
+	
+}
+.accordion-button:focus{
+	box-shadow: none;
 
 }
-/*.Dv1, .Dv2{
-	display: inline-block;
-	width: 50%;
-	box-sizing: border-box;
-	
-}*/
-.sec-us{
-	background-color: darkolivegreen;
+.acordeon-mio-p{
+	font-family:  'Tajawal', sans-serif;
+	color: green;
 }
