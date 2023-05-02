@@ -51,7 +51,7 @@ header{
 	background-size:  auto;
 	height:30rem;
 	max-width: 100%;
-	position: relative
+	position: relative;
 }
 
 /*Textos index*/
@@ -107,16 +107,13 @@ height: 300px;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 }
-.NavbarB{
-	color: rgb(206, 170, 8);
-	font-size: 25px;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: bold;
-}
+
+
 .clasNAV{
 	display: grid;
 	align-items:center;
 	display:list-item;
+	font-family:  'Montserrat', sans-serif;
 	
 }
 .ClasFOOT{
@@ -180,7 +177,7 @@ font-family:  'Julius Sans One', sans-serif;
 	background-color: rgb(90, 146, 18);
   }
   .btn-Form:hover{
-	background-color: rgb(61, 87, 9);
+	background-color: rgb(241, 161, 12);
   }
   .btn-Form:active{
 	background-color: orange;
@@ -240,20 +237,20 @@ text-align: center;
 
 .Where{
 	font-family: 'Amatic SC';
-	color: antiquewhite;
+	color: rgb(7, 7, 7);
 	text-align: center;
 	font-size: 40px;
 	font-weight: bold;
 }
 .mapa1{
 	font-family: 'Amatic SC';
-	color: rgb(223, 130, 9);
+	color: rgb(58, 40, 16);
 	text-align: center;
 	backface-visibility: visible;
 }
 .mapa2{
 	font-family: 'Amatic SC';
-	color: rgb(70, 223, 9);
+	color: rgb(124, 107, 8);
 	text-align: center;
 	backface-visibility: visible;
 }
@@ -271,7 +268,7 @@ text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	
 }
-
+/*propiedades cambiadas*/
 .acordeon-mio:not(.collapsed) {
 	background-color: rgb(231, 170, 37);
 	color: rgb(10, 10, 10);
@@ -285,4 +282,26 @@ text-align: center;
 .acordeon-mio-p{
 	font-family:  'Tajawal', sans-serif;
 	color: green;
+}
+.LogIN{
+	font-family:   'Montserrat', sans-serif;
+}
+.form-control:focus{
+	box-shadow: none;
+	border-color: #08c712;
+}
+.txt-login{
+	color: rgb(0, 0, 0);
+	padding: 1%;
+	border: 25%;
+	font-size: 35px;
+	text-align: center;
+	font-family:  'Tajawal', sans-serif;
+	background-color: orange;
+}
+.sec-c{
+	background-color: orange;
+}
+.Nav-list{
+	font-family:  'Montserrat', sans-serif;
 }

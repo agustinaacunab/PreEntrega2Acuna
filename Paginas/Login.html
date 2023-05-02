@@ -20,43 +20,53 @@
             </div>
         <ul class="nav nav-pills nav-fill col-md-12">
             <li class="nav-item">
-              <a class="nav-link mi-active" aria-current="page" href="./Login.html">Log-in</a>
+              <a class="nav-link mi-active Nav-list" aria-current="page" href="./Login.html">Log-in</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./Nosotros.html">About Us</a>
+              <a class="nav-link Nav-list" href="./Nosotros.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./OfertaAcademica.html">Oferta Academica</a>
+              <a class="nav-link Nav-list" href="./OfertaAcademica.html">Oferta Academica</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./Contacto.html">Contacto</a>
+              <a class="nav-link Nav-list" href="./Contacto.html">Contacto</a>
             </li>
           </ul>
         </nav>
     </header>
     <main>
       <section>
-        <p>Bienvenido! Contamos con una Intranet exclusiva para nuestros alumnos/padres. Aqui encontraras toda la info acerca del curso al que te has inscripto</p>
+        <p class="txt-us2"> Bienvenido! Logeate para poder acceder a tu area privada!</p>
       </section>
         <section class="container-fluid">
           <div class="row col-4">
           <form>
+            <select class="btn-Login LogIN" aria-label="Default select example">
+              <option selected>¿Quien eres?</option>
+              <option value="1" class="LogIN">Alumno</option>
+              <option value="2"class="">Profesor</option>
+              
+            </select>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">ID</label>
+              <label for="exampleInputEmail1" class="form-label LogIN">ID</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">Nºde Alumno</div>
+              <div id="emailHelp" class="form-text LogIN">e-mail de acceso</div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <label for="exampleInputPassword1" class="form-label LogIN">Contraseña</label>
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+              <label class="form-check-label LogIN" for="exampleCheck1 ">Recordarme</label>
             </div>
-            <button type="submit" class="btn mi-btn btn-Login">Acceder</button>
+            <button type="submit" class="btn mi-btn btn-Login LogIN">Acceder</button>
           </form>
           </div>
+        </section>
+        <section class="Sect-c">
+          <div class="txt-login">Como funciona?</div>
+          <div class="txt-login">Contamos con una intranet exclusiva donde nuestros alumnos, padres o profesores pueden acceder mediante su ID y contraseña, en ella encontraras toda la informacion acerca del usuario.</div>
         </section>
     </main>
     <footer>
