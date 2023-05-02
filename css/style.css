@@ -78,16 +78,16 @@ header{
     
 }
 /*Imagenes parallax*/	
-.img-uno{background-image: url(./img/ImagINdex.gif)}
+.img-uno{background-image: url(../img/ImagINdex.gif)}
 
-.img-dos{background-image:url(./img/childs.avif)}
+.img-dos{background-image:url(../img/childs.avif)}
 
-.img-tres{background-image:url(./img/estudiando.avif)}
+.img-tres{background-image:url(../img/estudiando.avif)}
 
 .img-cuatro{background-color: rgb(251, 252, 251);}
 
 .img-cinco{
-	background-image: url(./img/ubicacion.avif);
+	background-image: url(../img/ubicacion.avif);
 background-size: cover;}
 
 .Img-maps{
